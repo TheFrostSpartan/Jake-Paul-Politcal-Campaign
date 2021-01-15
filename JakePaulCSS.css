@@ -8,6 +8,7 @@ html, body {
     text-align: center;
     background-color: rgb(78, 205, 255);
     color: rgb(255, 255, 255);
+    scroll-behavior: smooth;
 }
 
 /* The side navigation menu */
@@ -133,7 +134,7 @@ html, body {
 
 #slogantitle {
     text-align: left;
-    margin-top: 100px;
+    margin-top: 120px;
     margin-bottom: -10px;
     margin-left: 75px;
 }
@@ -178,12 +179,17 @@ html, body {
 
 .pillarsLargestBox{
     width: 100%;
+    background-image: url("pillars.jpg");
+    background-size: 100%;
+}
+
+#threePillarsTitle{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
 }
 
 .threePillarsBox{
     height: 400px;
-    background-image: url("chairs.jpg");
-    background-size: 100%;
 }
 
 #altPillar1Title {
@@ -202,7 +208,7 @@ html, body {
 #pillar1alt:hover {
     border-radius: 5px;
     background-color: rgb(0, 0, 0);
-    opacity: 0.2;
+    opacity: 0.5;
 }
 
 #pillar1 {
@@ -212,7 +218,7 @@ html, body {
 #pillar1:hover {
     border-radius: 5px;
     background-color: rgb(0, 0, 0);
-    opacity: 0.2;
+    opacity: 0.5;
 }
 
 #altPillar2Title {
@@ -231,7 +237,7 @@ html, body {
 #pillar2alt:hover {
     border-radius: 5px;
     background-color: rgb(0, 0, 0);
-    opacity: 0.2;
+    opacity: 0.5;
 }
 
 #pillar2 {
@@ -241,7 +247,7 @@ html, body {
 #pillar2:hover {
     border-radius: 5px;
     background-color: rgb(0, 0, 0);
-    opacity: 0.2;
+    opacity: 0.5;
 }
 
 #altPillar3Title {
@@ -260,7 +266,7 @@ html, body {
 #pillar3alt:hover {
     border-radius: 5px;
     background-color: rgb(0, 0, 0);
-    opacity: 0.2;
+    opacity: 0.5;
 }
 
 #pillar3 {
@@ -270,5 +276,5 @@ html, body {
 #pillar3:hover {
     border-radius: 5px;
     background-color: rgb(0, 0, 0);
-    opacity: 0.2;
+    opacity: 0.5;
 }

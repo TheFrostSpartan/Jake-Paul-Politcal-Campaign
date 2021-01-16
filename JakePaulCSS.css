@@ -16,7 +16,7 @@ html, body {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 5; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
     background-color: #111; /* Black*/
@@ -94,6 +94,7 @@ html, body {
     margin: 0px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 3px 2px -2px rgba(0,0,0,.2);
+    z-index: 3;
 }
 
 #contentHolderCenterAlign{
@@ -301,16 +302,11 @@ html, body {
     margin-top: 0px;
 }
 
-#infoBox{
-    width: 100%;
-    height: 200px;
-    background-color: rgb(19, 19, 160);
-}
-
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
+    z-index: 2;
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -408,4 +404,20 @@ html, body {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+#infoBox{
+    width: 100%;
+    height: 200px;
+    margin-top: 0px;
+    background-color: rgb(19, 19, 160);
+    box-shadow: 0 -3px 2px -2px rgba(0,0,0,.2);
+}
+
+#infoTextBox {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 100px;
 }

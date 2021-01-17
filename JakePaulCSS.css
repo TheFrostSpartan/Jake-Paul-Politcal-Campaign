@@ -125,33 +125,18 @@ html, body {
 
 #sloganBox {
     padding: 0;
-    background-color: rgb(95, 224, 247);
     width: 100%;
     font-size: 50px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 0; 
-    box-shadow: 30px 10px 100px 100px  rgb(95, 224, 247);
-}
-
-#slogantitle {
-    text-align: left;
-    margin-top: 120px;
-    margin-bottom: -10px;
-    margin-left: 75px;
-}
-
-.sloganInfo {
-    text-align: left;
-    font-size: 25px;
-    margin: 0;
-    margin-top: 25px;
-    margin-left: 75px;
 }
 
 #pillarsTitle {
     font-family: 'Montserrat', sans-serif;
     margin-top: 20px;
     font-size: 30px;
+}
+
+#sloganPic{
+    width: 100%;
 }
 
 .threePillarsBox {

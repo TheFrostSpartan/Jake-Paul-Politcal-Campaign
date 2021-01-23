@@ -291,6 +291,8 @@ html, body {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  height: 50%;
+  width: 50%;
 }
 
 /* Hide the images by default */
@@ -321,11 +323,13 @@ html, body {
 /* Position the "next button" to the right */
 .next {
   right: 0;
+  top: 300;
   border-radius: 3px 0 0 3px;
 }
 
 .prev {
     left:0;
+    top: 300;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -336,10 +340,10 @@ html, body {
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 20px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 280px;
   width: 100%;
   text-align: center;
 }
@@ -390,7 +394,7 @@ html, body {
 #infoBox{
     width: 100%;
     height: 600px;
-    margin-top: 0px;
+    margin-top: 75px;
     background-color: rgb(0, 72, 155);
     box-shadow: 0 -3px 2px -2px rgba(0,0,0,.2);
     font-family: 'Montserrat', sans-serif;

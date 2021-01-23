@@ -111,16 +111,12 @@ html, body {
     display: flex;
     justify-content: right;
     flex-flow: row-reverse;
-}
-
-#featherBox {
-    height: 100%;
-    width: 150%;
+    margin-bottom: 0px;
 }
 
 #profilePic {
-    height: 100%;
-    width: 100%;
+    height: 52.5%;
+    width: 52.5%;
 }
 
 #sloganBox {

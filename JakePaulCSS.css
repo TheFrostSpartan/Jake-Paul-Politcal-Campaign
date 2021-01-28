@@ -71,7 +71,8 @@ html, body {
 
 #menuHolder {
     float: left;
-    margin-left: 5px;
+    margin-left: 15px;
+
 }
 
 #menuHolder:hover .menuIcon {

@@ -118,7 +118,7 @@ html, body {
 @media only screen and (max-device-width: 768px) {
     #profilePic {
         width: 384px;
-        height: 400px;
+        height: 420px;
     }
 }
 

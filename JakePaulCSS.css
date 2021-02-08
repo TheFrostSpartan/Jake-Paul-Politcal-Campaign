@@ -116,7 +116,7 @@ html, body {
 }
 
 #profilePic {
-    height: 52.5%;
+    height: auto;
     width: 52.5%;
 }
 

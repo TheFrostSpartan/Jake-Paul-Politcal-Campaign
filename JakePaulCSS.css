@@ -115,8 +115,14 @@ html, body {
     margin-bottom: 0px;
 }
 
+@media only screen and (max-device-width: 768px) {
+    #profilePic {
+        width: 384px;
+        height: 384px;
+    }
+}
+
 #profilePic {
-    height: auto;
     width: 52.5%;
 }
 

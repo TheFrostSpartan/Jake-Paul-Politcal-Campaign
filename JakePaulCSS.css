@@ -108,38 +108,22 @@ html, body {
     max-width: 1500px;
 }
 
-.mainImage {
-    display: flex;
-    justify-content: right;
-    flex-flow: row-reverse;
-    margin-bottom: 0px;
-}
-
-@media only screen and (max-device-width: 768px) {
-    #profilePic {
-        width: 384px;
-        height: 420px;
-    }
-}
-
-#profilePic {
-    width: 52.5%;
-}
-
-#sloganBox {
-    padding: 0;
+#mainImageBar{
     width: 100%;
-    font-size: 50px;
+}
+
+.mainImage{
+    margin-top: 30px;
+}
+
+#disclaimerBox{
+    font-family: 'Montserrat', sans-serif;
 }
 
 #pillarsTitle {
     font-family: 'Montserrat', sans-serif;
     margin-top: 20px;
     font-size: 30px;
-}
-
-#sloganPic{
-    width: 100%;
 }
 
 .threePillarsBox {
@@ -169,8 +153,8 @@ html, body {
 
 .pillarsLargestBox{
     margin-top: 10px;
-    width: 95%;
-    border-radius: 10px;
+    width: 97%;
+    border-radius: 5px;
     background-image: url("pillars.jpg");
     background-size: 100%;
 }
